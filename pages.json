@@ -1,0 +1,118 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "./pages/index/index",
+			"style": {
+				"navigationBarTitleText": "hh商城"
+			}
+		}
+	    ,{
+            "path" : "./pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购物车",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "./pages/member/member",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "会员",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "./pages/news2/news2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "咨询",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods/goods",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品列表",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关于我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/pics/pics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "社区图片",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods-detail/goods-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news2/news2",
+            "style" : {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": "水平排列，左图右文"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "hh商城",
+		"navigationBarBackgroundColor": "#b50e03",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "./pages/index/index",
+				"iconPath": "./static/icon/首页.png",
+				"selectedIconPath": "./static/icon/首页_选中.png"
+			},
+			{
+				"text": "咨询",
+				"pagePath": "./pages/news2/news2",
+				"iconPath": "./static/icon/咨询.png",
+				"selectedIconPath": "./static/icon/咨询_选中.png"
+			},
+			{
+				"text": "购物车",
+				"pagePath": "./pages/cart/cart",
+				"iconPath": "./static/icon/购物车.png",
+				"selectedIconPath": "./static/icon/购物车_选中.png"
+			},
+			{
+				"text": "会员",
+				"pagePath": "./pages/member/member",
+				"iconPath": "./static/icon/会员.png",
+				"selectedIconPath": "./static/icon/会员_选中.png"
+			}
+		],
+		"position": "bottom",
+		"selectedColor": "red"
+	}
+}
